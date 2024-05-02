@@ -3,7 +3,7 @@ const dotenv = require("dotenv").config()
 
 const app = express()
 
-const PORT = process.env.PORT || 5000
+const PORT = 8100
 
 app.listen(PORT, ()  =>{
     console.log(`Server started running on ${PORT}`)
